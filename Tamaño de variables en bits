@@ -1,0 +1,10 @@
+#include <stdio.h> 
+int main (void) {  printf ("Tamaño de int %d\n", sizeof(int)*8);//imprime por pantalla el texto entre comillas, reemplazando %d por el resultado de la función Sizeof(). El \n indica nueva linea.  
+printf ("Tamaño de short int %d\n", sizeof(short int)*8); 
+printf ("Tamaño de char %d\n", sizeof(char)*8);  
+printf ("Tamaño de long long int %d\n", sizeof(long long int)*8); 
+printf ("Tamaño de float %d\n", sizeof(float)*8);
+printf ("Tamaño de unsigned int %d\n", sizeof(unsigned int)*8);
+//agregar faltante… 
+return 0; 
+} 
