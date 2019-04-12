@@ -1,0 +1,11 @@
+#include <stdio.h> 
+int main (void) 
+{  
+    int i=0;//aquí se inicializa y se asigna un valor a la variable tipo entero “i”.  
+    int j=4334; ;//aquí se inicializa y se asigna un valor a la variable tipo entero “j”. 
+    printf ("Valor de i=%d\n", i);//imprime por pantalla el valor de i  
+    printf ("Direccion inicial de memoria de i=%d\n", &i);//imprime por pantalla la dirección de memoria de i 
+    printf ("Valor de j=%d\n", j); //imprime por pantalla el valor de j 
+ printf ("Direccion inicial de memoria de j=%d\n", &j); //imprime por pantalla la dirección de memoria de j 
+ return 0; 
+} 
