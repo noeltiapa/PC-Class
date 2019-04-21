@@ -1,0 +1,15 @@
+variable = int (input("Introduzca un valor entero menor al valor 7: "))
+
+if variable <= 7:
+    num = (int(variable%2)) #Residuo
+        
+    if num == 0: 
+        while num == 0 or num <= 7:
+            num = (int(num+1)) #Contador
+        if num%2 == 0 return num
+            elif:
+                print("Numeros pares que anteceden a 7: "/n, num)
+                else:
+                    print("Numero impares que anteceden a 7: "/n, num)
+    else: 
+        print("Introduzca valor valido")
