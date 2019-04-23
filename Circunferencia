@@ -1,0 +1,20 @@
+radio = int (input("Ingrese el valor del radio: "))
+ 
+ superficie_circulo = 3.14 * (radio ** 2)
+ 
+ print("La superficie del circulo es "/n, superficie_circulo)
+ 
+ superficie_esfera = (4 * 3.14) * (radio ** 2)
+ 
+ print("La superficie de la esfera es: "/n, superficie_esfera)
+ 
+ volumen_esfera = (4/2 * 3.14) * (radio *** 3)
+ 
+ print("El volumen de la esfera es: "/n, volumen_esfera)
+ 
+ diametro = int (2 * radio) 
+ 
+ Perime_circunfer = 3.14 * diametro
+ 
+ print("El perimetro de la circunferencia es: "/n, Perime_circunfer)
+ 
