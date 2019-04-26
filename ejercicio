@@ -1,0 +1,40 @@
+#GASEOSA Ligth A
+variable = str (input("Que agradable le es la gaseosa Ligth A, indicar 0 no aceptación, 1 aceptación")) 
+
+if variable == 1:
+    Acum_acep=0+variable
+    else if variable == 0:
+        Acum_no_acep=0+variable
+                    else variable != 0 or != 1:
+                        print("valor incorrecto, introducir 0 ó 2 acorde a su preferencia: ")
+#GASEOSA Ligth B
+variable = str (input("Que agradable le es la gaseosa Ligth B, indicar 0 no aceptación, 1 aceptación: "))
+
+if variable == 1:
+    Bcum_acep=0+variable
+    else if variable == 0:
+        Bcum_no_acep=0+variable
+            else variable != 0 or != 1:
+                print("valor incorrecto, introducir 0 ó 1 acorde a su preferencia: ")
+#otras variables
+variable = str (input("Seleccionar 1 si acepta los dos productos ó 0 si no acepta los dos productos: "))
+if variable == 1:
+    DOS_acep=0+variable
+    else if variable == 0:
+        DOS_no_acep=0+variable
+            else variable != 0 or != 1:
+                print("valor incorrecto, introducir 0 ó 1 acorde a su preferencia: ")
+#calculoA
+cumligthA=Acum_acep+Bcum_acep+DOS_acep+uno_acep
+no_one=int(100*Acum_acep)/cumligthA
+si_one=int(100*Acum_no_acep)/cumligthA
+#calculoB
+no_two=int(100*Bcum_acep)/cumligthA
+si_two=int(100*Bcum_no_acep)/cumligthA
+#calculo variablesA
+no_three=int(100*DOS_acep)/cumligthA
+si_three=int(100*DOS_no_acep)/cumligthA
+#print
+print ("porcentaje de personas que no aceptaron Ligth-A: ", no_one)
+print ("porcentaje de personas que aceptaron Ligth-A: ", si_one)
+print ("porcentaje de personas que no aceptaron Ligth-A: ", no_one)
